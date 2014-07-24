@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p #{comment}
+  p #{foo.bar}
+ 
+  
+  for post in posts
+    p #{post[0].title}
+    p #{post[0].description}
+    iframe(src='#{post[0].video}')
+       
