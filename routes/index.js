@@ -1,4 +1,4 @@
-var data = require('../data');
+var data = require('../data').data;
 
 /*
  * GET home page.
